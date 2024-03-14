@@ -8,5 +8,5 @@ class CartAdmin(admin.ModelAdmin):
         "user",
         "product",
         "quantity",
-        "total_price",
+        "price",
     )

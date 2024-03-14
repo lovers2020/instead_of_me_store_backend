@@ -12,13 +12,4 @@ class PulblicUserSerializer(serializers.ModelSerializer):
 class PrivateUserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = (
-            "username",
-            "name",
-            "gender",
-            "address",
-            "email",
-            "phone_number",
-            "birth",
-            "is_host",
-        )
+        fields = "__all__"
